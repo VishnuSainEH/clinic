@@ -1,0 +1,45 @@
+body {
+    background-color: #343a40; /* Dark background color */
+    color: #ffffff; /* White text color */
+}
+
+.navbar-info {
+    background-color: #343a40; /* Dark background color for navbar */
+}
+
+.navbar-toggler-icon {
+    filter: invert(1); /* Invert color of the toggler icon */
+}
+
+.offcanvas-header {
+    background-color: #343a40; /* Dark background color for offcanvas header */
+    border-bottom: none; /* Remove bottom border */
+}
+
+.offcanvas-title {
+    color: #ffffff; /* White text color for offcanvas title */
+}
+.slider {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: background-image 0.5s ease; /* Transition effect for smooth slide */
+}
+
+.nav-link {
+    color: #ffffff; /* White text color for nav links */
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: #ffffff; /* White text color on hover/focus */
+    text-decoration: underline; /* Underline on hover/focus */
+}
+
+.btn-close {
+    filter: invert(0.8); /* Invert color of the close button */
+}
+
+.btn-close:hover {
+    filter: invert(1); /* Invert color of the close button on hover */
+}
